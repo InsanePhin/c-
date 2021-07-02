@@ -15,6 +15,8 @@ namespace dotnet
             Console.WriteLine(print);
 
             Console.WriteLine("hello " + print);
+
+            Console.WriteLine($"hello {print}");
         }
     }
 }
