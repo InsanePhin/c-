@@ -13,6 +13,8 @@ namespace dotnet
 
             print = "print3";
             Console.WriteLine(print);
+
+            Console.WriteLine("hello " + print);
         }
     }
 }
