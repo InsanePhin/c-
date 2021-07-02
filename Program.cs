@@ -10,6 +10,9 @@ namespace dotnet
 
             string print = "print2";
             Console.WriteLine(print);
+
+            print = "print3";
+            Console.WriteLine(print);
         }
     }
 }
