@@ -51,7 +51,15 @@ namespace dotnet
 
             //all content upper and lower
             Console.WriteLine(sayHello.ToUpper());
-            Console.WriteLine(sayHello.ToLower());      
+            Console.WriteLine(sayHello.ToLower());
+
+            //search content
+            //startswith
+            Console.WriteLine(sayHello.StartsWith("Hello"));
+            //endswith
+            Console.WriteLine(sayHello.EndsWith("world!"));
+            //contains
+            Console.WriteLine(sayHello.Contains("o"));
         }
     }
 }
